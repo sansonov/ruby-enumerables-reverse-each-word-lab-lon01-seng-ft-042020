@@ -5,20 +5,20 @@ def reverse_each_word(string)
   array.reverse
   #binding.pry
   
-  i = 0
-  while i < array.length do 
-    array[i] = array[i].reverse
-    i+=1
-  end
-  return array.join(" ")
+  # i = 0
+  # while i < array.length do 
+  #   array[i] = array[i].reverse
+  #   i+=1
+  # end
+  # return array.join(" ")
   
   # array.each do |k|
   # k.reverse!
   # end.join(" ")
   
   
-  # array.collect do |k|
-  # k.reverse
-  # end.join(" ")
+  array.collect do |k|
+  k.reverse
+  end.join(" ")
    
 end

@@ -5,7 +5,7 @@ def reverse_each_word(string)
   #binding.pry
   
   array.each do |k|
-  return k.reverse!
+   k.reverse!
   end
   
   # array.collect do |k|
